@@ -1,6 +1,6 @@
 {
   "name": "@ibm-verify/adaptive-proxy",
-  "version": "1.9.0",
+  "version": "1.9.1-0",
   "description": "The Proxy SDK for server-side JavaScript ([Node](https://nodejs.org)). The purpose of this library is to provide an interface for device authentication, authorization, and risk assessment using IBM Verify.",
   "main": "lib/index.js",
   "scripts": {
