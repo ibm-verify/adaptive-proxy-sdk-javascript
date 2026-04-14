@@ -9,7 +9,7 @@
     "docs": "rm -r docs 2>/dev/null; jsdoc -r lib -d docs -t node_modules/minami"
   },
   "keywords": [],
-  "author": "Adam Dorogi-Kaposi <adam.dorogi-kaposi@ibm.com>",
+  "author": "IBM Verify <verify@au1.ibm.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IBM-Verify/adaptive-proxy-sdk-javascript.git"
@@ -26,7 +26,7 @@
     "eslint-config-google": "^0.14.0",
     "jsdoc": "^4.0.4",
     "minami": "^1.2.3",
-    "mocha": "^10.0.0"
+    "mocha": "^10.8.2"
   },
   "bugs": {
     "url": "https://github.com/IBM-Verify/adaptive-proxy-sdk-javascript/issues"
