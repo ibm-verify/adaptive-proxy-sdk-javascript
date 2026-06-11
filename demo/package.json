@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@ibm-verify/adaptive-proxy": "file:..",
-    "dotenv": "^8.2.0",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "joi": "^17.13.3",
     "uuid": "^3.4.0"
