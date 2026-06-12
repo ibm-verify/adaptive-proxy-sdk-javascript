@@ -90,7 +90,7 @@ const Adaptive = require('adaptive-proxy-sdk');
 const config = {
   tenantUrl: 'https://mytenant.ibmcloudsecurity.com',
   clientId: 'e957e707-c032-4076-98cc-3dcf24db8aed',
-  clientSecret: '05UXCBaJgL',
+  klmn5678opqr,
 };
 
 const adaptive = new Adaptive(config);
@@ -104,7 +104,7 @@ You may also pass in a `transactionFunctions` object to the Adaptive initialisat
 const config = {
   tenantUrl: 'https://mytenant.ibmcloudsecurity.com',
   clientId: 'e957e707-c032-4076-98cc-3dcf24db8aed',
-  clientSecret: '05UXCBaJgL',
+  klmn5678opqr,
 };
 
 const transactionFunctions = {
@@ -258,8 +258,8 @@ receiving a `requires` status from [`assessPolicy`](#assess-a-policy). This will
   {
     "status": "allow",
     "token": {
-      "access_token": "zscmjBdvIjudOPLhpbmJi6nBRJg7cZ6WY0Udw1nC",
-      "refresh_token": "wFTjurPxTvRD1cW09itgQM83XwCm1UKwsxhVFb1H7HJh8JkwZz",
+      "access_token": "abcd1234efgh",
+      "refresh_token": "klmn5678opqr",
       "scope": "openid",
       "grant_id": "a0b440b6-fefb-46ea-a603-e1040534cd28",
       "id_token": "eyJhbGciOiJSUzI1NiIsInR5cC...5j_rMn7H3ZpE4axt0WvsYu4jbA",
@@ -356,7 +356,7 @@ completion. Your initial transaction ID will also be returned.
     "transactionId": "36a101c7-7426-4f45-ab3c-55f8dc075c6e",
     "fido": {
       "rpId": "fido.verify.ibm.com",
-      "challenge": "Q29uZ3JhdHVsYXRpb25zIFlvdSBmb3VuZCBpdAo",
+      "challenge": "klmn5678opqr",
       "userVerification": "preferred",
       "timeout": 30000,
       "allowCredentials": [
@@ -407,8 +407,8 @@ will result in either an `allow`, `deny`, or `requires` response.
   {
     "status": "allow",
     "token": {
-      "access_token": "zscmjBdvIjudOPLhpbmJi6nBRJg7cZ6WY0Udw1nC",
-      "refresh_token": "wFTjurPxTvRD1cW09itgQM83XwCm1UKwsxhVFb1H7HJh8JkwZz",
+      "access_token": "abcd1234efgh",
+      "refresh_token": "klmn5678opqr",
       "scope": "openid",
       "grant_id": "a0b440b6-fefb-46ea-a603-e1040534cd28",
       "id_token": "eyJhbGciOiJSUzI1NiIsInR5cC...5j_rMn7H3ZpE4axt0WvsYu4jbA",
@@ -557,8 +557,8 @@ This will result in either a `pending`, `timeout`, `error`, `allow`, `deny`, or 
   {
     "status": "allow",
     "token": {
-      "access_token": "zscmjBdvIjudOPLhpbmJi6nBRJg7cZ6WY0Udw1nC",
-      "refresh_token": "wFTjurPxTvRD1cW09itgQM83XwCm1UKwsxhVFb1H7HJh8JkwZz",
+      "access_token": "abcd1234efgh",
+      "refresh_token": "klmn5678opqr",
       "scope": "openid",
       "grant_id": "a0b440b6-fefb-46ea-a603-e1040534cd28",
       "id_token": "eyJhbGciOiJSUzI1NiIsInR5cC...5j_rMn7H3ZpE4axt0WvsYu4jbA",
@@ -712,8 +712,8 @@ Verify a TOTP second-factor verification after receiving a
   {
     "status": "allow",
     "token": {
-      "access_token": "zscmjBdvIjudOPLhpbmJi6nBRJg7cZ6WY0Udw1nC",
-      "refresh_token": "wFTjurPxTvRD1cW09itgQM83XwCm1UKwsxhVFb1H7HJh8JkwZz",
+      "access_token": "abcd1234efgh",
+      "refresh_token": "klmn5678opqr",
       "scope": "openid",
       "grant_id": "a0b440b6-fefb-46ea-a603-e1040534cd28",
       "id_token": "eyJhbGciOiJSUzI1NiIsInR5cC...5j_rMn7H3ZpE4axt0WvsYu4jbA",
@@ -754,8 +754,8 @@ Verify an email OTP second-factor verification after receiving an email OTP from
   {
     "status": "allow",
     "token": {
-      "access_token": "zscmjBdvIjudOPLhpbmJi6nBRJg7cZ6WY0Udw1nC",
-      "refresh_token": "wFTjurPxTvRD1cW09itgQM83XwCm1UKwsxhVFb1H7HJh8JkwZz",
+      "access_token": "abcd1234efgh",
+      "refresh_token": "klmn5678opqr",
       "scope": "openid",
       "grant_id": "a0b440b6-fefb-46ea-a603-e1040534cd28",
       "id_token": "eyJhbGciOiJSUzI1NiIsInR5cC...5j_rMn7H3ZpE4axt0WvsYu4jbA",
@@ -796,8 +796,8 @@ Verify an SMS OTP second-factor verification after receiving an SMS OTP from [`g
   {
     "status": "allow",
     "token": {
-      "access_token": "zscmjBdvIjudOPLhpbmJi6nBRJg7cZ6WY0Udw1nC",
-      "refresh_token": "wFTjurPxTvRD1cW09itgQM83XwCm1UKwsxhVFb1H7HJh8JkwZz",
+      "access_token": "abcd1234efgh",
+      "refresh_token": "klmn5678opqr",
       "scope": "openid",
       "grant_id": "a0b440b6-fefb-46ea-a603-e1040534cd28",
       "id_token": "eyJhbGciOiJSUzI1NiIsInR5cC...5j_rMn7H3ZpE4axt0WvsYu4jbA",
@@ -898,8 +898,8 @@ On successful verification, this will result in an `allow` response.
   {
     "status": "allow",
     "token": {
-      "access_token": "zscmjBdvIjudOPLhpbmJi6nBRJg7cZ6WY0Udw1nC",
-      "refresh_token": "wFTjurPxTvRD1cW09itgQM83XwCm1UKwsxhVFb1H7HJh8JkwZz",
+      "access_token": "abcd1234efgh",
+      "refresh_token": "klmn5678opqr",
       "scope": "openid",
       "grant_id": "a0b440b6-fefb-46ea-a603-e1040534cd28",
       "id_token": "eyJhbGciOiJSUzI1NiIsInR5cC...5j_rMn7H3ZpE4axt0WvsYu4jbA",
@@ -996,8 +996,8 @@ Verify a push notification second-factor verification after receiving a push not
   {
     "status": "allow",
     "token": {
-      "access_token": "zscmjBdvIjudOPLhpbmJi6nBRJg7cZ6WY0Udw1nC",
-      "refresh_token": "wFTjurPxTvRD1cW09itgQM83XwCm1UKwsxhVFb1H7HJh8JkwZz",
+      "access_token": "abcd1234efgh",
+      "refresh_token": "klmn5678opqr",
       "scope": "openid",
       "grant_id": "a0b440b6-fefb-46ea-a603-e1040534cd28",
       "id_token": "eyJhbGciOiJSUzI1NiIsInR5cC...5j_rMn7H3ZpE4axt0WvsYu4jbA",
@@ -1078,8 +1078,8 @@ Initiate an OAuth Refresh flow to obtain updated tokens.
   {
     "status": "allow",
     "token": {
-      "access_token": "zscmjBdvIjudOPLhpbmJi6nBRJg7cZ6WY0Udw1nC",
-      "refresh_token": "wFTjurPxTvRD1cW09itgQM83XwCm1UKwsxhVFb1H7HJh8JkwZz",
+      "access_token": "abcd1234efgh",
+      "refresh_token": "klmn5678opqr",
       "scope": "openid",
       "grant_id": "a0b440b6-fefb-46ea-a603-e1040534cd28",
       "id_token": "eyJhbGciOiJSUzI1NiIsInR5cC...5j_rMn7H3ZpE4axt0WvsYu4jbA",
